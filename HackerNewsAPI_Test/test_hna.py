@@ -5,7 +5,7 @@ from HackerNewsAPI import HackerNewsAPI
 import time
 import traceback
 
-from expected_data import *
+from .expected_data import *
 
 
 class HackerNewsAPIBasicTests(unittest.TestCase):

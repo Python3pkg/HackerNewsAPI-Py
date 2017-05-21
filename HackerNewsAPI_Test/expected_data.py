@@ -11,58 +11,58 @@ def check_content(data_under_test, expected, check_keys):
         assert(data_under_test[key] == expected[key])
 
 story_8863 = {
-  u"by": u"dhouston",
-  u"id": 8863,
-  u"kids": [8952, 9224, 8917, 8884, 8887, 8943, 8869, 8958, 9005, 9671, 8940, 9067, 8908, 9055, 8865, 8881, 8872,
+  "by": "dhouston",
+  "id": 8863,
+  "kids": [8952, 9224, 8917, 8884, 8887, 8943, 8869, 8958, 9005, 9671, 8940, 9067, 8908, 9055, 8865, 8881, 8872,
             8873, 8955, 10403, 8903, 8928, 9125, 8998, 8901, 8902, 8907, 8894, 8878, 8870, 8980, 8934, 8876],
-  u"score": 111,
-  u"time": 1175714200,
-  u"title": u"My YC app: Dropbox - Throw away your USB drive",
-  u"type": u"story",
-  u"url": u"http://www.getdropbox.com/u/2/screencast.html"
+  "score": 111,
+  "time": 1175714200,
+  "title": "My YC app: Dropbox - Throw away your USB drive",
+  "type": "story",
+  "url": "http://www.getdropbox.com/u/2/screencast.html"
 }
 
 comment_2921983 = {
-  u"by": u"norvig",
-  u"id": 2921983,
-  u"kids": [2922097, 2922429, 2924562, 2922709, 2922573, 2922140, 2922141],
-  u"parent": 2921506,
-  u"text": u"Aw shucks, guys ... you make me blush with your compliments.<p>"
-           u"Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?",
-  u"time": 1314211127,
-  u"type": u"comment"
+  "by": "norvig",
+  "id": 2921983,
+  "kids": [2922097, 2922429, 2924562, 2922709, 2922573, 2922140, 2922141],
+  "parent": 2921506,
+  "text": "Aw shucks, guys ... you make me blush with your compliments.<p>"
+           "Tell you what, Ill make a deal: I'll keep writing if you keep reading. K?",
+  "time": 1314211127,
+  "type": "comment"
 }
 
 poll_126809 = {
-  u"by": u"pg",
-  u"id": 126809,
-  u"kids": [126822, 126823, 126993, 126824, 126934, 127411, 126888, 127681, 126818, 126816, 126854, 127095, 126861,
+  "by": "pg",
+  "id": 126809,
+  "kids": [126822, 126823, 126993, 126824, 126934, 127411, 126888, 127681, 126818, 126816, 126854, 127095, 126861,
             127313, 127299, 126859, 126852, 126882, 126832, 127072, 127217, 126889, 127535, 126917, 126875],
-  u"parts": [126810, 126811, 126812],
-  u"score": 46,
-  u"text": u"",
-  u"time": 1204403652,
-  u"title": u"Poll: What would happen if News.YC had explicit support for polls?",
-  u"type": u"poll"
+  "parts": [126810, 126811, 126812],
+  "score": 46,
+  "text": "",
+  "time": 1204403652,
+  "title": "Poll: What would happen if News.YC had explicit support for polls?",
+  "type": "poll"
 }
 
 pollopt_160705 = {
-  u"by": u"pg",
-  u"id": 160705,
-  u"parent": 160704,
-  u"score": 335,
-  u"text": u"Yes, ban them; I'm tired of seeing Valleywag stories on News.YC.",
-  u"time": 1207886576,
-  u"type": u"pollopt"
+  "by": "pg",
+  "id": 160705,
+  "parent": 160704,
+  "score": 335,
+  "text": "Yes, ban them; I'm tired of seeing Valleywag stories on News.YC.",
+  "time": 1207886576,
+  "type": "pollopt"
 }
 
 user_jl = {
-  u"about": u"This is a test",
-  u"created": 1173923446,
-  u"delay": 0,
-  u"id": u"jl",
-  u"karma": 2937,
-  u"submitted": [8265435, 8168423, 8090946, 8090326, 7699907, 7637962, 7596179, 7596163, 7594569, 7562135, 7562111,
+  "about": "This is a test",
+  "created": 1173923446,
+  "delay": 0,
+  "id": "jl",
+  "karma": 2937,
+  "submitted": [8265435, 8168423, 8090946, 8090326, 7699907, 7637962, 7596179, 7596163, 7594569, 7562135, 7562111,
                  7494708, 7494171, 7488093, 7444860, 7327817, 7280290, 7278694, 7097557, 7097546, 7097254, 7052857,
                  7039484, 6987273, 6649999, 6649706, 6629560, 6609127, 6327951, 6225810, 6111999, 5580079, 5112008,
                  4907948, 4901821, 4700469, 4678919, 3779193, 3711380, 3701405, 3627981, 3473004, 3473000, 3457006,

@@ -2,7 +2,7 @@ __author__ = 'Robert P. Cope'
 import requests
 import logging
 
-from utils import rate_limit
+from .utils import rate_limit
 
 hn_logger = logging.getLogger(__name__)
 if not hn_logger.handlers:
@@ -169,4 +169,4 @@ class HackerNewsUpdates(object):
 
 if __name__ == "__main__":
     api = HackerNewsAPI()
-    print api.get_item(8863, raw=True)
+    print(api.get_item(8863, raw=True))
